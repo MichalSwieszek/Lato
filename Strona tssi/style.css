@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    color: rgb(39, 43, 43);
+    background-color: rgb(255, 251, 215);
+
+}
+
+
+
+.banner
+{
+z-index: 2;
+margin-top: 0;
+height: 100%;
+width: 100%;
+}
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 25%;
+    position: fixed;
+    background: transparent;
+    z-index: 2;
+}
+
+.avatar{
+    width: 30%;
+    margin-left: 33% ;
+    border-radius: 50%;
+    z-index: 3;
+    border: 5px solid rgb(255, 204, 102);
+  
+    display: block;
+}
+    h1{
+        text-align: center;
+        font-family: 'Indie Flower';
+        padding-top: 2%;
+        font-size: 50px;
+        z-index: 3;
+    }
+
+.opis{
+
+ position: fixed;
+padding-top: 10%;
+margin-left: 4%;
+margin-right: 70%;
+text-align: justify;
+z-index: 3;
+border-image: url("galeria/border");
+}
+
+.secimg{
+   float: right;
+    height: 10%;
+    width: 60%;
+    border-radius:7% 0 0 7%;
+
+}
+
+
+section{
+
+    padding-top: 15%;
+    margin-right: 10%;
+    margin-left: 45%;
+   
+}
+article{
+    height: 20%;
+    width: 90%;
+    background-color: rgb(253, 247, 193);
+    float: right;
+    margin-bottom: 10%;
+    -webkit-box-shadow: 6px 7px 19px -4px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 7px 19px -4px rgba(0,0,0,0.59);
+box-shadow: 6px 7px 19px -4px rgba(0,0,0,0.59);
+}
+
+.desc{
+padding-top: 4%;
+float: left;
+width: 35%;
+text-align: right;
+padding-left: 3%;
+font-size: 120%;
+}
+
+footer{
+    z-index: 99;
+    height: 5%;
+    background: khaki;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: -120%;
+    display: block;
+
+}
+p{
+font-size: 120% ;
+}
+
+.up{
+position: fixed;
+padding-top: 13%;
+width: 70%;
+padding-left: 1%;
+
+}
+
+
+
+.icons{
+display: inline-block;
+position: relative;
+padding-left: 3%;
+font-size: 40px;
+
+}
+.icons:hover i{
+ transform: scale(1.1) ;
+ transition-duration: 0.3s;
+ color: cadetblue;
+ 
+}
+
+
+
+  @media only screen and (max-width: 4000px) {
+    .desc {
+      font-size: 165%;
+    }
+    .icons{
+        font-size: 50px;
+    }
+  p{
+      font-size: 195%;
+  }
+  footer{
+      bottom: -225%;
+  }
+   .up i{
+       font-size:400% ;
+   }
+}
+
+  
+  @media only screen and (max-width: 3000px) {
+    .desc {
+      font-size: 135%;
+    }
+    .icons{
+        font-size: 40px;
+    }
+    .opis span{
+        font-size: 70px;
+    }
+    .banner{
+        height: 105%;
+    }
+    p{
+        font-size: 170%;
+    }
+    h1{
+        font-size: 700%;
+    }
+    .up i{
+        font-size:400% ;
+    }
+}
+    @media only screen and (max-width: 2750px) {
+        .desc {
+          font-size: 135%;
+        }
+        .icons{
+            font-size: 40px;
+        }
+        .opis span{
+            font-size: 60px;
+        }
+        .banner{
+            height: 105%;
+        }
+        p{
+            font-size: 150%;
+        }
+        h1{
+            font-size: 600%;
+        }
+}
+@media only screen and (max-width: 2500px) {
+    .desc {
+      font-size: 120%;
+    }
+    .icons{
+        font-size: 35px;
+    }
+    .opis span{
+        font-size: 50px;
+    }
+  .banner{
+      height: 98%;
+  }
+  p{
+      font-size: 130%;
+  }
+  h1{
+    font-size: 500%;
+}
+  }
+  @media only screen and (max-width: 2200px) {
+    .desc {
+      font-size: 100%;
+    }
+    .icons{
+        font-size: 35px;
+    }
+    .opis span{
+        font-size: 50px;
+    }
+  .banner{
+      height: 98%;
+  }
+  p{
+      font-size: 130%;
+  }
+  h1{
+    font-size: 400%;
+}
+  }
+    @media only screen and (max-width: 1900px) {
+        .desc {
+          font-size: 90%;
+        }
+        .icons{
+            font-size: 25px;
+    
+        }
+        p{
+            font-size: 110%;
+        }
+        .banner{
+            height: 80%;
+        }
+        .opis span{
+            font-size: 40px;
+        }
+        h1{
+            font-size: 300%;
+        }
+    }
+    @media only screen and (max-width: 1650px) {
+        .desc {
+          font-size: 80%;
+        }
+        .icons{
+            font-size: 20px;
+    
+        }
+        p{
+            font-size: 100%;
+        }
+        .banner{
+            height: 65%;
+        }
+        .opis span{
+            font-size: 35px;
+        }
+        h1{
+            font-size: 250%;
+        }
+    }
+    @media only screen and (max-width: 1475px) {
+        .desc {
+          font-size: 75%;
+        }
+        .icons{
+            font-size: 16px;
+    
+        }
+        p{
+            font-size: 95%;
+        }
+        .banner{
+            height: 55%;
+        }
+        .opis span{
+            font-size: 25px;
+        }
+        h1{
+            font-size: 200%;
+        }
+    }
+    @media only screen and (max-width: 1360px) {
+        .desc  {
+          font-size: 70%;
+        }
+        .icons{
+            font-size: 13px;
+    
+        }
+        p{
+            font-size: 90%;
+        }
+        .opis span{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 200%;
+        }
+    }
